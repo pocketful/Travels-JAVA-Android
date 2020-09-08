@@ -1,0 +1,88 @@
+<resources>
+
+    <!-- login -->
+    <string name="app_name">Travels</string>
+    <string name="login_title">Kelionės</string>
+    <string name="login_username">Vartotojo vardas:</string>
+    <string name="login_password">Slaptažodis:</string>
+    <string name="login_remember">Prisiminti mane</string>
+    <string name="login_submit">Prisijungti</string>
+    <string name="login_register">Registracija</string>
+    <string name="login_reset">Negalite prisijungti?</string>
+
+    <!-- register -->
+    <string name="register_title">Registracija</string>
+    <string name="register_username">Vartotojo vardas</string>
+    <string name="register_password">Slaptažodis</string>
+    <string name="register_password2">Pakartoti slaptažodį</string>
+    <string name="register_email">El. paštas</string>
+    <string name="register_submit">Registruotis</string>
+
+    <!-- reset -->
+    <string name="reset_text1">Naujas slaptažodis bus nusiųstas su Jūsų paskyra susietu el. pašto adresu.</string>
+    <string name="reset_text2">Įveskite vartotojo vardą:</string>
+    <string name="reset_submit">Naujas slaptažodis</string>
+    <string name="reset_title">Slaptažodžio priminimas</string>
+
+    <!-- error -->
+    <string name="register_username_error">Neįvedėte vartotojo vardo</string>
+    <string name="register_password_error">Neįvedėte slaptažodžio</string>
+    <string name="register_password2_error">Neįvedėte pakartotinio slaptažodžio</string>
+    <string name="register_email_error">Klaidingas el. pašto formatas</string>
+    <string name="register_password3_error">Nesutampa slaptažodžiai</string>
+
+    <string name="login_username_error">Neįvedėte vartotojo vardo</string>
+    <string name="login_password_error">Neįvedėte slaptažodžio</string>
+    <string name="login_username_error_wrong">Neteisingas vartotojo vardas</string>
+    <string name="login_password_error_wrong">Neteisingas slaptažodis</string>
+
+    <string name="new_entry_pavadinimas_error">Neįvedėte pavadinimo</string>
+    <string name="new_entry_trukme_error">Neįvedėte trukmės</string>
+
+    <!-- menu -->
+    <string name="menu_title">Menu</string>
+    <string name="menu_new_entry">Naujas įrašas</string>
+    <string name="menu_search">Įrašų paieška</string>
+    <string name="menu_edituser">Redaguoti paskyrą</string>
+
+    <!-- new entry -->
+    <string name="new_entry_title">Naujo įrašo kūrimas</string>
+
+    <string name="new_entry_h1">Pridėti naują kelionės įrašą</string>
+
+    <string name="pavadinimas">Pavadinimas:</string>
+
+    <string name="zemynas">Žemynas:</string>
+    <string name="zemynas_Afrika">Afrika</string>
+    <string name="zemynas_Australija">Australija</string>
+    <string name="zemynas_Azija">Azija</string>
+    <string name="zemynas_Europa">Europa</string>
+    <string name="zemynas_PietuAmerika">Pietų Amerika</string>
+    <string name="zemynas_SiauresAmerika">Šiaurės Amerika</string>
+
+    <string name="trukme">Trukmė (d.):</string>
+
+    <string name="metulaikas">Metų laikas:</string>
+    <string name="metulaikas_pavasaris">Pavasaris</string>
+    <string name="metulaikas_ruduo">Ruduo</string>
+    <string name="metulaikas_vasara">Vasara</string>
+    <string name="metulaikas_ziema">Žiema</string>
+
+    <string name="kelionestipas">Kelionės tipas:</string>
+    <string name="kelionestipas_poilsine">Poilsinė</string>
+    <string name="kelionestipas_pazintine">Pažintinė</string>
+    <string name="kelionestipas_kita">Kita</string>
+
+    <string name="new_entry_submit">Pridėti</string>
+
+    <!-- edit user -->
+    <string name="edituser_password_current">Dabartinis slaptažodis:</string>
+    <string name="edituser_password_new">Naujas slaptažodis:</string>
+    <string name="edituser_email">El. paštas:</string>
+    <string name="edituser_submit">Atnaujinti</string>
+    <string name="edituser_title">Paskyros redagavimas</string>
+
+    <!-- search -->
+    <string name="search_title">Paieška</string>
+
+</resources>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_new_entry"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.byethost17.pocketful.travels.NewEntryActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- h1 add diary -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/new_entry_h1"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="15dp">
+            </View>
+
+            <!-- pavadinimas -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pavadinimas"/>
+
+            <EditText
+                android:id="@+id/pavadinimas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="15dp">
+            </View>
+
+            <!-- zemynas -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/zemynas"/>
+
+            <Spinner
+                android:id="@+id/zemynaiSelect"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="15dp">
+            </View>
+
+            <!-- trukme -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/trukme" />
+
+            <EditText
+                android:id="@+id/trukme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="15dp">
+            </View>
+
+            <!-- metu laikas -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/metulaikas"/>
+
+            <CheckBox
+                android:id="@+id/metulaikasPavasaris"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/metulaikas_pavasaris"/>
+
+            <CheckBox
+                android:id="@+id/metulaikasRuduo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/metulaikas_ruduo"/>
+
+            <CheckBox
+                android:id="@+id/metulaikasVasara"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/metulaikas_vasara"
+                android:checked="true"/>
+
+            <CheckBox
+                android:id="@+id/metulaikasZiema"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/metulaikas_ziema"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="15dp">
+            </View>
+
+            <!-- keliones tipas -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/kelionestipas"/>
+
+            <RadioGroup
+                android:id="@+id/kelionestipaiRadioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/kelionestipasPoilsine"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/kelionestipas_poilsine"
+                    android:checked="true"/>
+
+                <RadioButton
+                    android:id="@+id/kelionestipasPazintine"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/kelionestipas_pazintine"/>
+
+                <RadioButton
+                    android:id="@+id/kelionestipasKita"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/kelionestipas_kita"/>
+
+            </RadioGroup>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="15dp">
+            </View>
+
+            <!-- button -->
+            <Button
+                android:id="@+id/prideti"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/new_entry_submit"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

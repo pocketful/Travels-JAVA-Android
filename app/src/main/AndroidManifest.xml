@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.byethost17.pocketful.travels">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true">
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MenuActivity"
+            android:label="@string/menu_title" />
+        <activity
+            android:name=".SearchActivity"
+            android:label="@string/search_title" />
+        <activity
+            android:name=".NewEntryActivity"
+            android:label="@string/new_entry_title" />
+        <activity
+            android:name=".RegisterActivity"
+            android:label="@string/register_title" />
+        <activity android:name=".ResetActivity"
+            android:label="@string/reset_title"/>
+        <activity android:name=".EditUserActivity"
+            android:label="@string/edituser_title"></activity>
+    </application>
+
+</manifest>
